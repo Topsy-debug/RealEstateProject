@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real State Login</title>
+    <link rel="stylesheet" href="css3/client.css">
+    <style>
+        .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3375FF;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+}
+
+    </style>
+    <script>
+        function redirectToIndexPage() {
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+<body>
+   
+    <div class="login-box">
+        <img class="avatar" src="img/logo.jpg" alt="Logo de Real-State">
+        
+        <h1>LOGIN AS</h1>
+        <form>
+            <input type="button" value="Staff" class="boton" onclick="redirectToIndexPage()">
+            <h2> Or </h2>
+            <input type="button" value="Client" class="boton" onclick="redirectToIndexPage()">
+        
+            <b>Do not have an account?<b></a>
+            <a href="Signup.html">Click here</a></a>
+        </form>
+    </div>
+
+</body>
+</html>
